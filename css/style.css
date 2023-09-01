@@ -10,18 +10,6 @@ body a {
 }
 
 
-/* Header style */
-
-.header {
-    background-color: #1F2937;
-
-}
-
-.site-logo {
-    width: 250px;
-    flex-shrink: 0;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -39,6 +27,24 @@ body a {
 .a-center {
     align-items: center;
 }
+
+.j-center {
+    justify-content: center;
+}
+
+
+/* Header style */
+
+.header {
+    background-color: #1F2937;
+
+}
+
+.site-logo {
+    width: 250px;
+    flex-shrink: 0;
+}
+
 
 .header-menu {
     list-style: none;
@@ -125,4 +131,34 @@ img.hero-img {
 .button:hover {
     background-color: #fff;
     color: #3882F6;
+}
+
+
+/* Services */
+
+.services .container.d-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 150px;
+}
+
+.container-wrapper{
+    flex-wrap: wrap;
+}
+
+.services .container-wrapper {
+    gap: 40px;
+}
+
+.container-wrapper .column.item {
+    flex: initial;
+    width: 230px;
+    align-items: center;
+}
+
+.container-wrapper .column.item p {
+    text-align: center;
 }
