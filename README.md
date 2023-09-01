@@ -1,7 +1,4 @@
-# landing-page
-
-
-<h1>Project: Landing Page</h1>
+# Project: Landing Page
 
 For this project I'll be creating an entire web page from a design provided for me. I
 
