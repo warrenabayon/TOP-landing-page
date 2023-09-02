@@ -161,4 +161,13 @@ img.hero-img {
 
 .container-wrapper .column.item p {
     text-align: center;
+    line-height: 1.5em;
+    color: #1F2937;
+}
+
+.container h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5rem;
+    color: #1F2937;
 }
