@@ -81,7 +81,7 @@ body a {
  
 }
 
-.hero-banner.d-flex {
+.hero-banner, .quote, .services {
     padding: 5rem 0;
 }
 
@@ -170,4 +170,26 @@ img.hero-img {
     font-weight: 700;
     margin-bottom: 5rem;
     color: #1F2937;
+    margin-top: 0;
+    line-height: 1.4em;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+h3.quote-txt {
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.quote .container.d-flex {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 700;
 }
