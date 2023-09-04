@@ -81,7 +81,7 @@ body a {
  
 }
 
-.hero-banner, .quote, .services {
+.hero-banner, .quote, .services, .cta {
     padding: 5rem 0;
 }
 
@@ -149,15 +149,18 @@ img.hero-img {
     flex-wrap: wrap;
 }
 
-.services .container-wrapper {
+.services .inner-container {
     gap: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-wrapper .column.item {
     flex: initial;
-    width: 230px;
+    width: 210px;
     align-items: center;
 }
+
 
 .container-wrapper .column.item p {
     text-align: center;
@@ -174,8 +177,15 @@ img.hero-img {
     line-height: 1.4em;
 }
 
+
+/* Quote style */
+
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote .container {
+    width: 1000px;
 }
 
 h3.quote-txt {
@@ -192,4 +202,55 @@ h3.quote-txt {
 .quote-author {
     align-self: flex-end;
     font-weight: 700;
+    font-size: 18px;
 }
+
+.container h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.container p {
+    margin-top: 0;
+}
+
+.cta .container {
+    background-color: #3882f6;
+    
+    align-items: center;
+    color: #fff;
+    border-radius: 0.5rem;
+    
+}
+
+.cta .inner-container {
+    padding: 3rem;
+}
+
+.cta .container p {
+    margin-bottom: 0;
+}
+
+.cta .column.left {
+    flex: 3;
+}
+
+.cta a.button {
+    margin-top: 0;
+}
+
+.cta a.button {
+    margin-top: 0;
+    border: 2px solid;
+}
+
+.cta .column.right {
+    align-items: center;
+}
+
+.inner-container {
+    flex-basis: 1000px;
+    flex-wrap: wrap;
+}
+
